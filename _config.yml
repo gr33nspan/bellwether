@@ -1,7 +1,16 @@
+---
 title: Bellwether
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 markdown: kramdown
 gems:
-  - autoprefixer-rails
+- autoprefixer-rails
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
