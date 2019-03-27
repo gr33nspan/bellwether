@@ -1,7 +1,7 @@
 ---
-layout: home
+title: Bellwether
 sections:
-- content: |
+- content: |-
     In a moment when reality is stranger than fiction,
 
     when journalists cannot take for granted that thorough reporting will be believed,
@@ -11,14 +11,15 @@ sections:
     and when the future happens so fast&#65279;—
 
     we need new tools to tell the stories of our time.
-- content: |
+- content: |-
     We need a kind of speculative journalism:
 
     stories of the world as it is
     through the lens of what it might become.
-- content: |
+- content: |-
     I'm Sam Greenspan. This is Bellwether.
 
     Coming soon.
+layout: home
 ---
 
