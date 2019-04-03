@@ -19,7 +19,7 @@ sections:
 - content: |-
     I'm Sam Greenspan. This is Bellwether.
 
-    Coming soon.
+    Coming soon! Here's a test
 layout: home
 ---
 
