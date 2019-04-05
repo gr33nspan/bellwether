@@ -20,7 +20,6 @@ sections:
     I'm Sam Greenspan. This is Bellwether.
 
     Coming soon.
-- content: 
 layout: home
 ---
 
