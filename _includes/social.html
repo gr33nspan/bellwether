@@ -1,15 +1,15 @@
-{% if page.title %}
-  <title>{{ page.title }} - Bellwether</title>
-  <meta name="description" content="{{ page.description }}">
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:type" content="article">
-  <meta property="og:description" content="{{ page.description }}">
-{% else %}
+{% if page.title == "Bellwether" %}
   <title>Bellwether</title>
   <meta name="description" content="A radio program of speculative journalism.">
   <meta property="og:title" content="Bellwether">
   <meta property="og:type" content="website">
   <meta property="og:description" content="A radio program of speculative journalism.">
+{% else %}
+  <title>{{ page.title }} - Bellwether</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="{{ page.description }}">
 {% endif %}
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="Bellwether">
