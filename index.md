@@ -20,9 +20,15 @@ sections:
     I'm Sam Greenspan. This is Bellwether.
 
     Coming soon.
-- content: ' <iframe width="560" height="315" src="https://www.youtube.com/embed/BZSlCG1L5x8"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>'
+- content: 
 layout: home
 ---
 
+## Get the latest
+        
+<form action="https://tinyletter.com/samgreenspan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samgreenspan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="newsletter-form"><label for="tlemail">Email address</label><input type="email" name="email" id="tlemail" placeholder="Enter your email address" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+
+## Get in touch
+
+[sam@bellwether.show](mailto:sam@bellwether.show)
+[samgreenspan.org](https://www.samgreenspan.org)
