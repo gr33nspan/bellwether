@@ -46,19 +46,11 @@ and when the future happens so fast—
 
 we need new tools to tell the stories of our time.
 
-
-
 We need a kind of speculative journalism:
 
 stories stories of the world as it is
 through the lens of what it might become.
 
-
-
 I'm Sam Greenspan. This is Bellwether.
 
 Coming soon.
-
-Get the latest: [tinyletter link]
-
-Get in touch: sam@bellwether.show
