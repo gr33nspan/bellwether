@@ -36,4 +36,5 @@ This is Bellwether.
 ## Get in touch
 
 [sam@bellwether.show](mailto:sam@bellwether.show)
+
 [samgreenspan.org](https://www.samgreenspan.org)
