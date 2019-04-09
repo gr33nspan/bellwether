@@ -1,17 +1,5 @@
 ---
 title: Bellwether
-newsletter:
-  title: Get the latest
-  placeholder: Enter your email address
-  subscribe_button: Subscribe
-contact:
-  title: Get in touch
-  links:
-  - title: sam@bellwether.show
-    url: mailto:sam@bellwether.show
-  - title: samgreenspan.org
-    url: https://www.samgreenspan.org
-layout: home
 ---
 
 In a moment when reality is stranger than fiction,
@@ -24,11 +12,28 @@ and when the future happens so fast—
 
 we need new tools to tell the stories of our time.
 
+---
+
 We need a kind of speculative journalism:
 
-stories stories of the world as it is
+stories of the world as it is
 through the lens of what it might become.
+
+---
 
 I'm Sam Greenspan.
 
 This is Bellwether.
+
+---
+
+## Get the latest
+
+ <form action="https://tinyletter.com/samgreenspan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samgreenspan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="newsletter-form"><label for="tlemail">Email address</label><input type="email" name="email" id="tlemail" placeholder="{{ page.newsletter.placeholder }}" /><input type="hidden" value="1" name="embed"/><input type="submit" value="{{ page.newsletter.subscribe_button }}" /></form>
+
+--
+
+## Get in touch
+
+[sam@bellwether.show](mailto:sam@bellwether.show)
+[samgreenspan.org](https://www.samgreenspan.org)
