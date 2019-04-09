@@ -29,7 +29,7 @@ This is Bellwether.
 
 ## Get the latest
 
-<form action="https://tinyletter.com/samgreenspan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samgreenspan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="newsletter-form"><label for="tlemail">Email address</label><input type="email" name="email" id="tlemail" placeholder="{{ page.newsletter.placeholder }}" /><input type="hidden" value="1" name="embed"/><input type="submit" value="{{ page.newsletter.subscribe_button }}" /></form>
+<form action="https://tinyletter.com/samgreenspan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samgreenspan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="newsletter-form"><label for="tlemail">Email address</label><input type="email" name="email" id="tlemail" placeholder="Enter your email address" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
 
 ---
 
