@@ -35,8 +35,14 @@ p, li, blockquote {
   margin-bottom: $paragraphBreak;
 }
 
-.home-section {
-  margin-bottom: $paragraphBreak * 4;
+hr {
+  padding: ($paragraphBreak * 2) 0;
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 1px;
+  position: relative;
+  margin: -1px 0 0;
 }
 
 body {

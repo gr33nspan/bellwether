@@ -17,30 +17,20 @@
     </div>
 
     <div class="content">
+      {{ content }}
 
-      {% for section in page.sections %}
-        <div class="home-section">
-          {{ section.content | markdownify }}
-        </div>
+      <hr / >
+
+      <h2>{{ page.newsletter.title }}</h2>
+      
+      <form action="https://tinyletter.com/samgreenspan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samgreenspan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="newsletter-form"><label for="tlemail">Email address</label><input type="email" name="email" id="tlemail" placeholder="{{ page.newsletter.placeholder }}" /><input type="hidden" value="1" name="embed"/><input type="submit" value="{{ page.newsletter.subscribe_button }}" /></form>
+
+      <hr />
+
+      <h2>{{ page.contact.title}}</h2>
+      {% for link in page.contact.links %}
+        <p><a href="{{ link.url }}">{{ link.title }}</a></p>
       {% endfor %}
-
-      {% if page.content %}
-      <div class="home-section">
-        {{ content }}
-      </div>
-      {% endif %}
-
-      <div class="home-section">
-        <h2>{{ page.newsletter.title }}</h2>
-        
-        <form action="https://tinyletter.com/samgreenspan" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/samgreenspan', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true" class="newsletter-form"><label for="tlemail">Email address</label><input type="email" name="email" id="tlemail" placeholder="{{ page.newsletter.placeholder }}" /><input type="hidden" value="1" name="embed"/><input type="submit" value="{{ page.newsletter.subscribe_button }}" /></form>
-      </div>
-
-      <div class="home-section">
-        <h2>{{ page.contact.title}}</h2>
-        {% for link in page.contact.links %}
-          <p><a href="{{ link.url }}">{{ link.title }}</a></p>
-        {% endfor %}
     </div>
   </div>
 
@@ -58,7 +48,5 @@
       path: 'logov3.json'
     });
 </script>
-
-  </script>
 </body>
 </html>
