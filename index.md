@@ -21,9 +21,9 @@ through the lens of what it might become.
 
 ---
 
-I'm Sam Greenspan.
+I'm Sam Greenspan. This is Bellwether.
 
-This is Bellwether.
+Coming soon.
 
 ---
 
