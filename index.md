@@ -1,5 +1,6 @@
 ---
 title: Bellwether
+layout: home
 ---
 
 In a moment when reality is stranger than fiction,
@@ -30,19 +31,15 @@ Coming soon.
 ## Get the latest
 
 <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
 <form action="https://show.us20.list-manage.com/subscribe/post?u=d607dad85a6c911cbd39e1521&amp;id=3e029516fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
+	<label for="mce-EMAIL" class="mc-email-label">Email Address</label>
 	<input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group input-group">
-    <strong>Opt-in for: </strong>
+    <h2>Sign me up for&hellip;</h2>
     <ul><li><input type="checkbox" value="1" name="group[1149][1]" id="mce-group[1149]-1149-0"><label for="mce-group[1149]-1149-0">Updates on Bellwether</label></li>
 <li><input type="checkbox" value="2" name="group[1149][2]" id="mce-group[1149]-1149-1"><label for="mce-group[1149]-1149-1">The Wethervane, our bi-weekly round-up of speculative journalism</label></li>
 <li><input type="checkbox" value="4" name="group[1149][4]" id="mce-group[1149]-1149-2"><label for="mce-group[1149]-1149-2">Assorted &amp; sundry updates from Sam Greenspan</label></li>
