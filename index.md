@@ -3,7 +3,8 @@ title: Bellwether
 layout: home
 ---
 
-[__BELLWETHER CYCLE 1 KICKSTARTER IS NOW LIVE!!!__](https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism)
+__BELLWETHER CYCLE 1 KICKSTARTER IS NOW LIVE!!!__
+(https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism)
 
 
 
