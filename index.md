@@ -3,6 +3,10 @@ title: Bellwether
 layout: home
 ---
 
+[__BELLWETHER CYCLE 1 KICKSTARTER IS NOW LIVE!!!__](https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism)
+
+
+
 In a moment when reality is stranger than fiction,
 
 when journalists cannot take for granted that thorough reporting will be believed,
