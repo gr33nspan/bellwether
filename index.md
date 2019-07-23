@@ -31,7 +31,7 @@ Episode 01 now available everywhere.
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651566018&color=%23e25dd1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-Support our Kickstarter to help us complete Bellwether's first cycle of stories. 
+[Support our Kickstarter to help us complete Bellwether's first cycle of stories. ](https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism)
 
 <iframe width="640" height="360" src="https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism/widget/video.html" frameborder="0" scrolling="no"> </iframe>
 ---
