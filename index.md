@@ -3,7 +3,8 @@ title: Bellwether
 layout: home
 ---
 
-__BELLWETHER CYCLE 1 KICKSTARTER IS NOW LIVE!!!__
+[__BELLWETHER CYCLE 1 KICKSTARTER IS NOW LIVE!!!__
+](http://kck.st/2YXywOQ)
 
 <iframe width="640" height="360" src="https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism/widget/video.html" frameborder="0" scrolling="no"> </iframe>
 
@@ -32,7 +33,8 @@ through the lens of what it might become.
 
 I'm Sam Greenspan. This is Bellwether.
 
-
+Episode 01 now available everywhere. 
+Support our Kickstarter to help us complete Bellwether's first cycle of stories. 
 
 ---
 
