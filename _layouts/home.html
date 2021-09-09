@@ -2,24 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  
-  <title> - Bellwether</title>
-  <meta name="description" content="">
-  <meta property="og:title" content="">
-  <meta property="og:type" content="article">
-  <meta property="og:description" content="">
-
-<meta property="og:url" content="http://bellwether.show/">
-<meta property="og:site_name" content="Bellwether">
-
-<meta property="twitter:card" content="summary">
-<meta property="twitter:site" content="@samlistens">
-<meta property="twitter:creator" content="@samlistens">
-
-  <meta property="twitter:title" content="Bellwether">
-  <meta name="twitter:description" content="A radio program of speculative journalism.">
-
-
+  {% include social.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
@@ -28,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="">
+<body class="{{ page.class }}">
   <header>
     <h1><img src="images/bellwether-logo.png" alt="Bellwether logo"><span class="screen-reader-text">bellwether</span></h1>
     <h2 class="countdown">--:--:--:--</h2>
