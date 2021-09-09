@@ -7,226 +7,96 @@
 @import "_skeleton";
 @import "_includes";
 
-$primary: #FB8F7E;
-$dark: #171319;
-$darkest: #0E0C26;
-
-$paragraphBreak: 0.8em;
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-html, body {
-  background-color: $darkest;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-h1 {
-  font-size: 0;
-  color: transparent;
-  margin: 0;
-  padding: 0;
-}
+/*----------------------------------------------*\
+    PAGES
+  =====
 
-p, li, blockquote {
-  margin-bottom: $paragraphBreak;
-}
+  @package bellwether
 
-hr {
-  padding: ($paragraphBreak * 2) 0;
-  border: 0;
-  background: transparent;
-  display: block;
-  height: 1px;
-  position: relative;
-  margin: -1px 0 0;
-}
+\*----------------------------------------------*/
+
+@import "_components.scss";
 
 body {
-  background: linear-gradient($dark, $darkest);
-  color: $primary;
-  line-height: 1.8;
-  font-family: "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-display: swap;
-  .abel & {
-    font-family: "Abel", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $mono;
+  font-size: 1.125em;
+  color: $green;
+  /*background-color: $black;*/
+  background-image: url(../../images/background3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+
+  @media screen and (min-width: $small) {
+    font-size: 1.5em;
+  }
+  @media screen and (min-width: $medium) {
+    font-size: 2em;
   }
 }
-
-.content {
-  width: 92%;
-  max-width: 24rem;
-  margin: 0 auto;
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  max-width: 6em;
+  margin-right: 1em;
+}
+.text {
+  /*max-width: 20em;*/
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-}
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
 
-#logo {
-  width: 100vw;
-  height: 100vw;
-  padding: 5vw 0 0;
+  @media screen and (min-width: $medium) {
+    font-size: 0.7em;
+  }
 }
-
-img, svg {
-  max-width: 100%;
+.date {
+  text-align: center;
+  margin-bottom: 1em;
 }
-
-#mc-embedded-subscribe-form {
-  width: 100%;
-  margin-top: $paragraphBreak;
+.video {
+  max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  /*position: relative;
+  padding-bottom: 56.25%;*/ /* 16:9 */
+  /*height: 0;*/
 }
-
-.mc-email-label {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-
-input[type="email"],
-input[type="submit"] {
-  display: block;
-  width: 100%;
-}
-
-input[type="checkbox"] {
-  cursor: pointer;
-  width: 2rem;
-  height: 2rem;
-  opacity: 0;
+/*.video iframe {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
+/* Countdown */
+.countdown {
+  display: flex;
 
-  + label {
-    position: relative;
-    padding-left: 3rem;
-    display: block !important;
-    &:before {
-      content: "";
-      box-shadow: inset 0 0 0 1px $primary;
-      border-radius: 3px;
-      background: transparent;
-      width: 2rem;
-      height: 2rem;
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
+  div {
+    display: flex;
+    flex-direction: column;
   }
-
-  &:checked + label:before {
-    background: url("/images/check.svg") center center no-repeat,
-                linear-gradient(#C557BA, $primary);
-    box-shadow: none;
-  }
-}
-
-.mc-field-group.input-group {
-  li {
-    text-align: left;
-    list-style: none;
-    margin-bottom: 1.5rem;
-  }
-}
-
-input[type="email"] {
-  border: 1px solid $primary;
-  border-radius: 3px;
-  background: $darkest;
-  padding: 0.5rem;
-  height: 3rem;
-  margin-bottom: 1rem;
-}
-
-input[type="submit"] {
-  background: $primary;
-  border: 0;
-  color: #0E0C26;
-  border-radius: 3px;
-  height: 3rem;
-  padding: 0 1rem;
-}
-
-a,
-a:focus,
-a:hover,
-a:active,
-a:visited {
-  color: $primary;
-}
-
-h2 {
-  text-transform: lowercase;
-  font-variant: small-caps;
-  letter-spacing: 0.03em;
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgba($primary,0.6);
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: rgba($primary,0.6);
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: rgba($primary,0.6);
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: rgba($primary,0.6);
-}
-
-@media screen and (min-width: 22rem) {
-  .content {
-    font-size: 125%;
-  }
-}
-
-@media screen and (min-width: 40rem) {
-
-  #logo {
-    width: 60vw;
-    height: 60vw;
-    margin-left: 20vw;
-  }
-
-  h2 {
-    font-size: 1em;
-  }
-
-
-
-  input[type="submit"] {
-    width: auto;
-    display: inline-block;
-  }
-}
-
-g {
-  mask: unset !important;
-}
-
-@media screen and (min-width: 60rem) {
-  #logo {
-    width: 40vw;
-    height: 40vw;
-    margin-left: 30vw;
-  }
-
-  .content {
-    font-size: 1.375em;
-    max-width: 30rem;
-  }
-}
-
-@media screen and (min-width: 85rem) {
-  #logo {
-    padding-top: 0;
+  span {
+    font-size: 0.25em;
   }
 }
