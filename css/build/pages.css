@@ -1,0 +1,123 @@
+/*----------------------------------------------*\
+    PAGES
+	=====
+
+	@package piknikpress
+
+\*----------------------------------------------*/
+/*----------------------------------------------*\
+    COMPONENTS
+	==========
+
+	@package piknikpress
+
+\*----------------------------------------------*/
+/* 
+ *
+ * / Variables
+------------------------------------------------*/
+/* Colors */
+/* Widths */
+/* 600px */
+/* 800px */
+/* 1100px */
+/* Fonts */
+/* 
+ *
+ * / Mixins
+------------------------------------------------*/
+/* line 11, ../src/pages.scss */
+body {
+  font-family: "Courier Prime", monospace;
+  font-size: 1.125em;
+  color: #37ed44;
+  /*background-color: $black;*/
+  background-image: url(../../images/background3.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; }
+  @media screen and (min-width: 37.5em) {
+    /* line 11, ../src/pages.scss */
+    body {
+      font-size: 1.5em; } }
+  @media screen and (min-width: 50em) {
+    /* line 11, ../src/pages.scss */
+    body {
+      font-size: 2em; } }
+
+/* line 30, ../src/pages.scss */
+main {
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 34, ../src/pages.scss */
+header {
+  padding: 1em;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/* line 39, ../src/pages.scss */
+h1 {
+  max-width: 6em;
+  margin-right: 1em; }
+
+/* line 43, ../src/pages.scss */
+.text {
+  /*max-width: 20em;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 0.8em; }
+  @media screen and (min-width: 50em) {
+    /* line 43, ../src/pages.scss */
+    .text {
+      font-size: 0.7em; } }
+
+/* line 56, ../src/pages.scss */
+.date {
+  text-align: center;
+  margin-bottom: 1em; }
+
+/* line 60, ../src/pages.scss */
+.video {
+  max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  /*position: relative;
+  padding-bottom: 56.25%;*/
+  /* 16:9 */
+  /*height: 0;*/ }
+
+/*.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
+/* Countdown */
+/* line 77, ../src/pages.scss */
+.countdown {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 80, ../src/pages.scss */
+  .countdown div {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  /* line 84, ../src/pages.scss */
+  .countdown span {
+    font-size: 0.25em; }
