@@ -1,74 +1,33 @@
----
-title: Bellwether
-layout: home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  {% include social.html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 
-[__BELLWETHER CYCLE 1 KICKSTARTER IS NOW LIVE!!!__
-](http://kck.st/2YXywOQ)
+</head>
+<body class="{{ page.class }}">
+  <header>
+    <h1><img src="images/bellwether-logo.png" alt="Bellwether logo"><span class="screen-reader-text">bellwether</span></h1>
+    <h2 class="countdown">--:--:--:--</h2>
+  </header>
+  <main>
+    <div class="video">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/600460146?h=d66e3ad0a7&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+    <div class="text">
+      BELLWETHER<br/>
+      a new podcast of speculative journalism <br/>
+      by sam greenspan <br/>
+      9/27/21
+    </div>
+  </main>
 
-In a moment when reality is stranger than fiction,
-
-when journalists cannot take for granted that thorough reporting will be believed,
-
-when the stakes are higher than ever,
-
-and when the future happens so fast—
-
-we need new tools to tell the stories of our time.
-
----
-
-We need a kind of speculative journalism:
-
-stories of the world as it is
-through the lens of what it might become.
-
----
-
-I'm Sam Greenspan. This is Bellwether.
-
-Episode 01 now available everywhere. 
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/651566018&color=%23e25dd1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-[Support our Kickstarter to help us complete Bellwether's first cycle of stories. ](https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism)
-
-<iframe width="640" height="360" src="https://www.kickstarter.com/projects/bellwether/b-e-l-l-w-e-t-h-e-r-a-podcast-of-speculative-journalism/widget/video.html" frameborder="0" scrolling="no"> </iframe>
----
-
-## Get the latest
-
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://show.us20.list-manage.com/subscribe/post?u=d607dad85a6c911cbd39e1521&id=3e029516fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-<div class="mc-field-group">
-<label for="mce-EMAIL" class="mc-email-label">Email Address</label>
-<input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group input-group">
-<h2>Sign me up for…</h2>
-<ul><li><input type="checkbox" value="1" name="group\[1149\]\[1\]" id="mce-group\[1149\]-1149-0"><label for="mce-group\[1149\]-1149-0">Updates on Bellwether</label></li>
-<li><input type="checkbox" value="2" name="group\[1149\]\[2\]" id="mce-group\[1149\]-1149-1"><label for="mce-group\[1149\]-1149-1">The Wethervane, our bi-weekly round-up of speculative journalism</label></li>
-<li><input type="checkbox" value="4" name="group\[1149\]\[4\]" id="mce-group\[1149\]-1149-2"><label for="mce-group\[1149\]-1149-2">Assorted & sundry updates from Sam Greenspan</label></li>
-</ul>
-</div>
-<div id="mce-responses" class="clear">
-<div class="response" id="mce-error-response" style="display:none"></div>
-<div class="response" id="mce-success-response" style="display:none"></div>
-</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d607dad85a6c911cbd39e1521_3e029516fb" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
----
-
-## Get in touch
-
-[sam@bellwether.show](mailto:sam@bellwether.show)
-
-[samgreenspan.org](https://www.samgreenspan.org)
+<script src="js/scripts.js"></script>
+</body>
+</html>
