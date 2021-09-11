@@ -26,6 +26,9 @@
       by sam greenspan <br/>
       9/27/21
     </div>
+    <div class="text">
+      Listen: <a href="https://open.spotify.com/show/3S3ABMaCwECeFnIOzyRyHm">Spotify</a> | <a href="https://podcasts.apple.com/us/podcast/bellwether/id1471742168">Apple</a> | <a href="https://www.stitcher.com/show/bellwether-2/">Stitcher</a>
+    </div>
   </main>
 
 <script src="js/scripts.js"></script>

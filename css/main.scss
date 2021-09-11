@@ -55,6 +55,10 @@ h1 {
   margin-bottom: 1em;
   font-size: 0.8em;
 
+  a {
+    color: $green;
+  }
+
   @media screen and (min-width: $medium) {
     font-size: 0.7em;
   }
