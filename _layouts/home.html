@@ -27,7 +27,7 @@
       9/27/21
     </div>
     <div class="text">
-      Listen: <a href="https://open.spotify.com/show/3S3ABMaCwECeFnIOzyRyHm">Spotify</a> | <a href="https://podcasts.apple.com/us/podcast/bellwether/id1471742168">Apple</a> | <a href="https://www.stitcher.com/show/bellwether-2/">Stitcher</a>
+      Listen: <a href="https://open.spotify.com/show/3S3ABMaCwECeFnIOzyRyHm" target="_blank">Spotify</a> | <a href="https://podcasts.apple.com/us/podcast/bellwether/id1471742168" target="_blank">Apple</a> | <a href="https://www.stitcher.com/show/bellwether-2/" target="_blank">Stitcher</a> | <a href="https://thisisbellwether.libsyn.com/" target="_blank">RSS</a>
     </div>
   </main>
 
