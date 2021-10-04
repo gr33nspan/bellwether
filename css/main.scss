@@ -168,8 +168,11 @@ h3 {
 	// padding-right: 1em;
   	margin-bottom: 3em;
 }
+.social-icons {
+	display: flex;
+    align-items: center;
+}
 .social-icons a {
 	width: 3em;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-right: 2em;
 }
