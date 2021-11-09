@@ -175,4 +175,8 @@ h3 {
 .social-icons a {
 	width: 3em;
 	margin-right: 2em;
+
+	&.wide-icon {
+		width: 6em;
+	}
 }
